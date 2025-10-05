@@ -9,5 +9,5 @@ public abstract class BaseEntity
 
     public DateTime UpdateAt { get; set; } 
     
-    public BaseStatus BStatus { get; set; }
+    public BaseStatus Status { get; set; }
 }

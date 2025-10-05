@@ -12,13 +12,21 @@ public record UserDto
 
     public DateTime UpdateAt { get; init; }
 
-    public BaseStatus BStatus { get; init; }
+    public BaseStatus Status { get; init; }
 
     public string UserName { get; init; }
 
-    public string Password { get; init; }
+    public string PasswordHash { get; init; }
 
     public string Email { get; init; } 
     
-    public Role UserRole { get; init; } 
+    public Role UserRole { get; init; }
+
+    public string Code { get; init; }
+
+    public bool IsVerify { get; init; }
+
+    public bool IsDeleted { get; init; }
+
+    public decimal Balance { get; init; }
 }
