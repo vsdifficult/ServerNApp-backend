@@ -7,5 +7,5 @@ namespace SeverN.Modules.Users.Application.Queries;
 public record GetByNameUserQuery
     (
     string Name
-    ) : IQuery<UserDto>; 
+    ) : IQuery<UserDto?>; 
 

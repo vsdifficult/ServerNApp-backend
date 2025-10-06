@@ -5,7 +5,7 @@ using SeverN.Modules.Users.Infrastructure.Mappers;
 
 using MediatR; 
 
-namespace SeverN.Modules.Users.Infrastructure.CommandHander;
+namespace SeverN.Modules.Users.Infrastructure.CommandHandler;
 
 internal class UserRegisterCommandHandler : IRequestHandler<CreateUserCommand, Guid>
 {

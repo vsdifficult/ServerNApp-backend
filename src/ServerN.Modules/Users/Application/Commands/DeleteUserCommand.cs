@@ -6,5 +6,5 @@ namespace SeverN.Modules.Users.Application.Commands;
 public record DeleteUserCommand
     (
     Guid UserId
-    ) : ICommand<Guid>; 
+    ) : ICommand<bool>; 
 

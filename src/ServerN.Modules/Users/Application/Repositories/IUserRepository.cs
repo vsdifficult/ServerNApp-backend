@@ -9,6 +9,6 @@ public interface IUserRepository : IRepository<UserDto, Guid>
 {
     Task<UserDto?> GetByEmailAsync(string email);
     Task<int> GetAllUsersValue();
-
+    Task<UserDto?> GetByNameAsync(string name);
     Task<bool> UpdateBalanceAsync(string email, decimal newBalance);
 }

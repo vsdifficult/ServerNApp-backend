@@ -7,5 +7,5 @@ namespace SeverN.Modules.Users.Application.Queries;
 public record GetByIdUserQuery
     (
     Guid UserId
-    ) : IQuery<UserDto>; 
+    ) : IQuery<UserDto?>; 
 
